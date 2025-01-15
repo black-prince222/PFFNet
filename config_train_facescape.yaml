@@ -1,0 +1,40 @@
+gpu: "2"
+multi_gpu: null
+
+model_name: PointConv
+
+full: True
+
+arch: PointConv
+last_relu: False
+allow_less_points: False
+
+# general args
+batch_size: 12
+epochs: 50
+learning_rate: 0.001
+
+optimizer: Adam
+pretrain: null
+weight_decay: 0.0001
+
+dim: 3
+num_points: 4096
+
+DEVICE: cuda
+
+evaluate: False
+
+dataset: FaceScapeDataSet
+data_root: /home/gdut403/HZJ_FILES/Dataset/facescape_vertices_normals
+
+# miscalleneous
+workers: 4
+
+
+
+
+
+
+
+

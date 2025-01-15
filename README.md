@@ -24,6 +24,7 @@ In recent years, the research on 3D facial flow has received more attention, and
 ### Usage
 
 #### TRAIN
+    python train_facescape_normal.py config_train_facescape.yaml
 
 #### TEST
-
+    python evaluate_facescape_normal.py config_evaluate_facescape.yaml
